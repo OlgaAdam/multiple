@@ -1,6 +1,3 @@
-[submodule "multiple_project2"]
-	path = multiple_project2
-	url = https://github.com/OlgaAdam/multiple_project2
 [submodule "multiple_project1"]
 	path = multiple_project1
 	url = https://github.com/OlgaAdam/multiple_project1
