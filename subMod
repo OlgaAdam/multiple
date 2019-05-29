@@ -1,0 +1,500 @@
+   94  grep -R "Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$4"\t"$0 }' 
+   95  grep -R "Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$4"\t"$6 }' 
+   96  grep -R "Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$4"\t"$6 }' | sort -k6
+   97  grep -R "Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$4"\t"$6 }' | sort -k 6,6n -k 1,1 | tee ../RoddenRatingSorted.txt 
+   98  cd...
+   99  cd ..
+  100  ls -ltr
+  101  vim RoddenRatingSorted.txt
+  102  cd output/
+  103  grep -R "Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$4"\t"$6 }' | sort -k6,6 | tee ../RoddenRatingSorted.txt 
+  104  vim ../RoddenRatingSorted.txt 
+  105  grep -R "Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$4"\t"$6 }' | sort -k6 | tee ../RoddenRatingSorted.txt 
+  106  vim ../RoddenRatingSorted.txt 
+  107  grep -R "Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$4"\t"$6 }' | sort -k6,2 | tee ../RoddenRatingSorted.txt 
+  108  vim ../RoddenRatingSorted.txt 
+  109  grep -R "Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$4"\t"$6 }' | sort -k4 | tee ../RoddenRatingSorted.txt 
+  110  vim ../RoddenRatingSorted.txt 
+  111  grep -R "Rodden Rating" . 
+  112  grep -R "Rodden Rating" . | grep EMPTY
+  113  grep -R "Rodden Rating" . 
+  114  vim ../RoddenRatingSorted.txt 
+  115  pwd
+  116  cd ..
+  117  mkdir ../adopted
+  118  find . -type f -name 'Adopted*' -exec cp -rfp {} ../adopted/ \;
+  119  find . -type f -name ‘Adopted*' | xargs ls -l
+  120  find . -type f -name 'Adopted*' | xargs ls -l
+  121  find . -type f -name 'Adopted*' -delete
+  122  mkdir ../animal
+  123  find . -type f -name 'Animal*' | xargs ls -l
+  124  find . -type f -name 'Animal*' -exec cp -rfpv {} ../animal/ \;
+  125  find . -type f -name 'Animal*' -delete
+  126  mkdir ../astrology
+  127  find . -type f -name 'Astrology*' -exec cp -rfpv {} ../astrology/ \;
+  128  find . -type f -name 'Astrology*' -delete
+  129  mkdir ../Business
+  130  find . -type f -name 'Business*' -exec cp -rfpv {} ../Business/ \;
+  131  find . -type f -name 'Business*' -delete
+  132  mkdir ../other
+  133  find . -type f -name 'Cardinal_Figure*' -exec cp -rfpv {} ../other/ \;
+  134  find . -type f -name 'Cardinal_Figure*' -delete
+  135  find . -type f -name 'Civic_Event*' -exec cp -rfpv {} ../other/ \;
+  136  find . -type f -name 'Civic_Event*' -delete
+  137  ls -l ../
+  138  find . -type f -name 'Civic_Event*' -exec cp -rfpv {} ../other/ \;
+  139  cd /Users/user/Documents/DEVELOPMENT/GIT/astro/AstroDB-big/www.astro.com/astro-databank/output 
+  140  ls -l
+  141  ls -l
+  142  cd ..
+  143  ls -l
+  144  find . -type f -name 'Conjoined*' -exec cp -rfpv {} ../categories/ \;
+  145  find . -type f -name 'Conjoined*' -delete
+  146  find . -type f -name 'Entertainment*' -exec cp -rfpv {} ../categories/ \;
+  147  find . -type f -name 'Entertainment*' -delete
+  148  find . -type f -name 'First_*' -exec cp -rfpv {} ../categories/ \;
+  149  find . -type f -name 'First_*' -delete
+  150  find . -type f -name 'Historic*' -exec cp -rfpv {} ../categories/ \;
+  151  find . -type f -name 'Historic*' -delete
+  152  find . -type f -name 'Inauguration*' -exec cp -rfpv {} ../categories/ \;
+  153  find . -type f -name 'Inauguration*' -delete
+  154  find . -type f -name 'Inauguration*\|Mortality*\|Nation*\|Sports*\|Cities*' -exec cp -rfpv {} ../categories/ \;
+  155  find . -type f -name 'Inauguration*\|Mortality*\|Nation*' -exec cp -rfpv {} ../categories/ \;
+  156  find . -type f -name "Inauguration*\|Mortality*\|Nation*" -exec cp -rfpv {} ../categories/ \;
+  157  find . -type f -name 'Inauguration*' -exec cp -rfpv {} ../categories/ \;
+  158  ls -l
+  159  find . -type f -name 'Inaugur*' -exec cp -rfpv {} ../categories/ \;
+  160  pwd
+  161  ls -l ../categories/
+  162  ls -ltr ../categories/
+  163  find . -type f -name 'Inauguration*\|Mortality*\|Nation*' -exec cp -rfpv {} ../categories/ \;ls -l
+  164  ls -l
+  165  ls -ltr ../categories/
+  166  ls -l ../categories/
+  167  find . -type f -name 'Mortality*' -exec cp -rfpv {} ../categories/ \;ls -l
+  168  find . -type f -name 'Mortality*' -exec cp -rfpv {} ../categories/ \;
+  169  find . -type f -name 'Mortality*' -delete
+  170  find . -type f -name 'Nation*' -exec cp -rfpv {} ../categories/ \;
+  171  find . -type f -name 'Nation*' -delete
+  172  find . -type f -name 'Inauguration*\|Mortality*\|Nation*\|Sports*\|Cities*' -exec cp -rfpv {} ../categories/ \;
+  173  find . -type f -name 'Sports*' -exec cp -rfpv {} ../categories/ \;
+  174  find . -type f -name 'Sports*' -delete
+  175  find . -type f -name 'Cities*' -exec cp -rfpv {} ../categories/ \;
+  176  find . -type f -name 'Cities*' -delete
+  177  cd output/
+  178  grep -R "Tag:Rodden Rating" . 
+  179  grep -R "Tag:Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$4"\t"$6 }' | sort -k4 | tee ../RoddenRatingSorted.txt 
+  180  grep -R "Tag:Rodden Rating" .
+  181  grep -R "Tag:Rodden Rating" . | awk -F'[\t:]' '{print $1"\t"$2"\t"$5"\t"$7 }' | sort -k4 | tee ../RoddenRatingSorted.txt 
+  182  vim ../RoddenRatingSorted.txt 
+  183  mv ../RoddenRatingSorted.txt  ../../RoddenRatingSorted.txt 
+  184  pwd
+  185  cd ..
+  186  pwd
+  187  ls -l
+  188  cd ..
+  189  ls -l
+  190  vim RoddenRatingSorted.txt 
+  191  grep -R "Rodden Rating*AA" .
+  192  pwd
+  193  ls -l
+  194  cd astro-databank/
+  195  ls -l
+  196  grep -R "Rodden Rating*AA" .
+  197  vim ../../RoddenRatingSorted.txt 
+  198  vim ../RoddenRatingSorted.txt 
+  199  pwd
+  200  ls -l
+  201  grep -R 'Rodden Rating   AA' .
+  202  grep -R 'Rodden Rating   AA' .
+  203  grep -R 'Rodden Rating' .
+  204  cd ..
+  205  ls -l
+  206  cd output/
+  207  grep -R 'Rodden Rating   AA' .
+  208  ls -l
+  209  grep -R 'AA' .
+  210  grep -R 'AA' . | grep 'Rodden Rating'
+  211  grep -R 'AA' . | grep 'Rodden Rating' | wc -l
+  212  grep -R 'BA' . | grep 'Rodden Rating' | wc -l
+  213  grep -R 'CA' . | grep 'Rodden Rating' | wc -l
+  214  grep -R 'DA' . | grep 'Rodden Rating' | wc -l
+  215  grep -R 'A' . | grep 'Rodden Rating' | wc -l
+  216  grep -R '\^A\?' . | grep 'Rodden Rating' | wc -l
+  217  grep -R '^A$' . | grep 'Rodden Rating' | wc -l
+  218  grep -R '\^A\$' . | grep 'Rodden Rating' | wc -l
+  219  grep -R 'Rodden Rating' . | grep ' A' | wc -l
+  220  grep -R 'Rodden Rating' . | grep ' A' 
+  221  grep -R 'Tag:Rodden Rating' . | grep ' A' 
+  222  grep -R 'Tag:Rodden Rating' . | grep 'TagValue:A' 
+  223  ls -l
+  224  grep -R 'Tag:Rodden Rating' .
+  225  cd /Users/user/Documents/DEVELOPMENT/GIT/astro/AstroDB-big/www.astro.com/output 
+  226  ls -l
+  227  ls -l
+  228  pwd
+  229  ls -l | wc -l
+  230  ls -l ../astro-databank/
+  231  ls -l ../astro-databank/ | wc -l
+  232  ls -l | wc -l
+  233  grep -R 'Tag:Rodden Rating' . | wc -l
+  234  grep -R 'Tag:Rodden Rating' . | grep 'TagValue:A'
+  235  grep -R 'Tag:Rodden Rating' . | grep 'TagValue:A' | wc -l
+  236  grep -R 'Tag:Rodden Rating' . | grep 'TagValue:AA' | wc -l
+  237  vim /Users/user/Documents/DEVELOPMENT/GIT/astro/AstroDB-big/www.astro.com/sort.sh 
+  238  vim /Users/user/Documents/DEVELOPMENT/GIT/astro/AstroDB-big/www.astro.com/sort2.sh 
+  239  diskutil list
+  240  diskutil list
+  241  diskutil unmountDisk
+  242  cd /Volumes/Macintosh\ HD/System 
+  243  pwd
+  244  find . -type f -name "*.efi" print0
+  245  find . -type f -name "*.efi" print0
+  246  find . -type f -name "*.efi" 
+  247  vim /Library/CoreServices/boot.efi
+  248  pwd
+  249  pwd
+  250  cd /Volumes/Macintosh\ HD 
+  251  ls
+  252  find . -type f -name "*.efi" 
+  253  pwd
+  254  ls
+  255  cp ./usr/standalone/i386/boot.efi
+  256  cp ./usr/standalone/i386/boot.efi .
+  257  ls
+  258  vim startup.nsh
+  259  vim startup.nsh
+  260  cd ExternalMac.vbox
+  261  vim ExternalMac.vbox
+  262  vim ExternalMac.vbox
+  263  vim ExternalMac.vmdk
+  264  ls
+  265  ls
+  266  cd /Applications 
+  267  cd ..
+  268  ls
+  269  pwd
+  270  cd /Volumes/Macintosh\ HD/Applications 
+  271  ls
+  272  cd ..
+  273  ls
+  274  find . -type f -name "*.dmg" 
+  275  cd /Volumes/Macintosh\ HD/Developer 
+  276  cd ..
+  277  ls
+  278  find . -type f -name "*.nsh" 
+  279  cd /Volumes/LENOVO 
+  280  ls
+  281  cd System\ Volume\ Information/
+  282  ls
+  283  ls -l
+  284  cd IndexerVolumeGuid 
+  285  cd WPSettings.dat 
+  286  cd tracking.log 
+  287  cd ..
+  288  cd /Volumes/Windows 
+  289  ls -l
+  290  cd ..
+  291  ls
+  292  ls -l
+  293  cd LENOVO/
+  294  ls -ltra
+  295  cd ../Windows/
+  296  find . -type d -name "Linux"
+  297  ls -l
+  298  cd $GetCurrent
+  299  ls -ltra
+  300  ls -l
+  301  find . -type d -name "grub"
+  302  pwd
+  303  cd media
+  304  ls -l
+  305  pwd
+  306  cd /Volumes/Windows 
+  307  ls -l
+  308  cd Windows
+  309  ls -l
+  310  find . -type d -name "grub"
+  311  cd /Volumes/Windows 
+  312  ls -l
+  313  find . -type d -name "home"
+  314  cd /Users/user/Documents/DEVELOPMENT/GIT/astro/AstroDB-Processed/www.astro.com 
+  315  ls -ltr
+  316  history
+  317  grep -R 'Tag:Rodden Rating' . | grep 'TagValue:AA' | wc -l
+  318  cd output/
+  319  grep -R 'Tag:Rodden Rating' . | grep 'TagValue:AA' | wc -l
+  320  grep -R 'Tag:Rodden Rating' . | grep 'TagValue:A' | wc -l
+  321  ls
+  322  cd Desktop/
+  323  ls -ltr
+  324  ls -ltr
+  325  mv 1_курс0. Ядро космограммы 29_12_2017-45 1_курс0. Ядро космограммы 29_12_2017-45.mp3
+  326  ls -ltr
+  327  cp 1_курс.Ядрокосмограммы29_12_2017-45 1_курс.Ядрокосмограммы29_12_2017-45.mp3
+  328  ls -ltr
+  329  cd 
+  330  cd /Users/user/Documents/DEVELOPMENT/GIT/astroOther 
+  331  cd ..
+  332  chpw
+  333  pwd
+  334  /Users/user/Documents/DEVELOPMENT/GIT/checkGitTree.sh 
+  335  cd /Users/user/Documents/DEVELOPMENT/GIT/algos ç
+  336  cd /Users/user/Documents/DEVELOPMENT/GIT/OnlineTests 
+  337  cd ..
+  338  grep -R path 
+  339  ls
+  340  cd /Users/user/Documents/DEVELOPMENT/GIT/astro/AstroDB-Processed/www.astro.com/output 
+  341  ls
+  342  vim Zwagerman,_Joost.txt
+  343  grep -R "Tag:born on" .
+  344  grep -R "Tag:born on" . | tee bornOn.txt
+  345  rm bornOn.txt 
+  346  grep -R "Tag:born on" . | tee ../bornOn.txt
+  347  grep -R "Tag:born on" . | grep 1946| tee ../bornOn1946.txt
+  348  grep -R "Tag:born on" . | grep 1946| grep June |tee ../bornOn1946June.txt
+  349  cd ..
+  350  ls -ltr
+  351  pwd
+  352  /Users/user/Documents/DEVELOPMENT/GIT/astro/AstroDB-Processed/www.astro.com/bornOn1946June.txt 
+  353  cd /Users/user/Desktop/астро/Radix\ 6/
+  354  pwd
+  355  ls
+  356  pwd
+  357  pwd
+  358  cd ..
+  359  mkdir ephe
+  360  sudo mkdir ephe
+  361  ls
+  362  cd ephe/
+  363  cp /Users/user/Desktop/астро/Radix 6/SE* .
+  364  cp /Users/user/Desktop/астро/Radix\ 6/SE00010S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00013S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00015S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00016S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00019S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00024S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00031S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00045S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00048S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00052S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00065S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00092S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00095S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00107S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00324S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00409S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00433S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00451S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00511S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00532S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00704S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00944S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE01015S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE01562S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE01685S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE01862S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE02102S.SE1 /Users/user/Desktop/астро/Radix\ 6/se99990s.se1 /Users/user/Desktop/астро/Radix\ 6/SEAS_00.SE1 /Users/user/Desktop/астро/Radix\ 6/SEAS_06.SE1 /Users/user/Desktop/астро/Radix\ 6/SEAS_12.SE1 /Users/user/Desktop/астро/Radix\ 6/SEAS_18.SE1 /Users/user/Desktop/астро/Radix\ 6/seas_24.se1 .
+  365  sudo cp /Users/user/Desktop/астро/Radix\ 6/SE00010S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00013S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00015S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00016S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00019S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00024S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00031S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00045S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00048S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00052S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00065S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00092S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00095S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00107S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00324S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00409S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00433S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00451S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00511S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00532S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00704S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE00944S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE01015S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE01562S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE01685S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE01862S.SE1 /Users/user/Desktop/астро/Radix\ 6/SE02102S.SE1 /Users/user/Desktop/астро/Radix\ 6/se99990s.se1 /Users/user/Desktop/астро/Radix\ 6/SEAS_00.SE1 /Users/user/Desktop/астро/Radix\ 6/SEAS_06.SE1 /Users/user/Desktop/астро/Radix\ 6/SEAS_12.SE1 /Users/user/Desktop/астро/Radix\ 6/SEAS_18.SE1 /Users/user/Desktop/астро/Radix\ 6/seas_24.se1  .
+  366  ls 
+  367  pwd
+  368  cd ..
+  369  sudo mv ephe ephe3
+  370  ls
+  371  sudo mv ephe3 ephe
+  372  cd ephe/
+  373  grep -Ri selena
+  374  grep -Ri selena .
+  375  pwd
+  376  grep -Ri moon .
+  377  pwd
+  378  ls -ltr
+  379  grep -i moon .
+  380  grep -R moon .
+  381  pwd
+  382  vim SE00010S.SE1
+  383  ls -ltr
+  384  ls
+  385  cp /Users/user/Desktop/seorbel.txt .
+  386  sudo cp /Users/user/Desktop/seorbel.txt .
+  387  ls
+  388  sudo cp /Users/user/Desktop/астро/Radix\ 6/SEPL_18.SE1 .
+  389  ls
+  390  sudo mv seorbel.txt seorbel2.txt
+  391  ls
+  392  sudo mv seorbel2.txt seorbel.txt
+  393  vim seorbel.txt 
+  394  []
+  395  cd /Users/user/Documents/DEVELOPMENT/GIT/astro/astro 
+  396  git status
+  397  git add -A
+  398  git commit -m "Changed Gradus for Angle in AspectType. Basic tested."
+  399  git push
+  400  cd 
+  401  pwd
+  402  ls -lra
+  403  vim .vimrc
+  404  vim .vimrc
+  405  history
+  406  grep -Ri hist .
+  407  grep -R HIST .
+  408  vim /Users/user/Documents/DEVELOPMENT/GIT/checkGitTree.sh 
+  409  vim /Users/user/Documents/DEVELOPMENT/GIT/checkGitTree.sh 
+  410  vim /Users/user/Documents/DEVELOPMENT/GIT/checkGitTree.sh 
+  411  cd /Users/user/Documents/DEVELOPMENT/GIT/algos 
+  412  grep -R excep
+  413  grep -R excep .
+  414  grep -R excep . | grep -v noexc
+  415  grep -R excep . | grep print
+  416  vim ./Algorithms/Notes.h
+  417  cd ..
+  418  grep -R print_exception .
+  419  pwd
+  420  ls -ltra
+  421  ls -la
+  422  vim .vimrc
+  423  which vim
+  424  cd /usr/local/bin/vim
+  425  ls -ltr /usr/local/bin
+  426  cd /usr/local/bin/vim/
+  427  ls -ltr /usr/local/bin | grep vim
+  428  cd /usr/local/bin/Cellar/vim
+  429  cd /usr/local/bin/
+  430  cd ..
+  431  cd Cellar/vim/
+  432  ls -l
+  433  cd 8.1.0001
+  434  ls -l
+  435  cd share/
+  436  ls -l
+  437  cd vim/
+  438  ls -l
+  439  cd vim81
+  440  ls
+  441  cd plugin/
+  442  ls -l
+  443  grep -R cpp .
+  444   
+  445  pwd
+  446  ls -l
+  447  ./extractDates2.sh
+  448  ./extractDates2.sh
+  449  ./extractDates2.sh
+  450  ./extractDates2.sh
+  451  ./extractDates2.sh
+  452  ./extractDates2.sh
+  453  ./extractDates2.sh
+  454  ./extractDates2.sh
+  455  ./extractDates2.sh
+  456  ./extractDates2.sh
+  457  ./extractDates2.sh
+  458  ./extractDates2.sh
+  459  ./extractDates2.sh
+  460  ./extractDates2.sh
+  461  cd /Users/user/Desktop/GlOBA/LESSONS/Lectures/1-kurs 
+  462  /Users/user/Desktop/GlOBA/LESSONS/Lectures/1-kurs/extractDates.sh 
+  463  ls -l
+  464  ./extractDates.sh 
+  465  ls -ltr .
+  466  ls -R .
+  467  vim extractDates.sh 
+  468  ./extractDates.sh 
+  469  vim extractDates.sh 
+  470  vim extractDates.sh 
+  471  cp extractDates.sh extractDates2.sh
+  472  vim extractDates2.sh 
+  473  ./extractDates.sh 
+  474  ./extractDates2.sh 
+  475  ./extractDates.sh 
+  476  cp extractDates.sh extractDates2.sh
+  477  vim extractDates2.sh 
+  478  ./extractDates2.sh 
+  479  vim extractDates2.sh 
+  480  ./extractDates.sh 
+  481  vim extractDates2.sh 
+  482  ./extractDates2.sh 
+  483  vim extractDates2.sh 
+  484  ./extractDates2.sh 
+  485  vim extractDates2.sh 
+  486  ./extractDates2.sh 
+  487  vimdiff extractDates2.sh extractDates.sh
+  488  cp extractDates.sh extractDates2.sh
+  489  ./extractDates2.sh 
+  490  vim extractDates2.sh 
+  491  ./extractDates2.sh 
+  492  vim extractDates2.sh 
+  493  ./extractDates2.sh 
+  494  vim extractDates2.sh 
+  495  ./extractDates2.sh 
+  496  ./extractDates2.sh 
+  497  vim extractDates2.sh 
+  498  ./extractDates2.sh 
+  499  pwd
+  500  vim extractDates2.sh 
+  501  cd /Users/user/Documents/DEVELOPMENT/GIT/algos 
+  502  cd ..
+  503  ls -ltr
+  504  cd multiple
+  505  ls -ltr
+  506  ls -ltr
+  507  history
+  508  ls -tr
+  509  vim gitSubmod2
+  510  ls -ltr
+  511  cd 
+  512  cd /Users/user/Documents/DEVELOPMENT/GIT/algos 
+  513  cd ..
+  514  cd multiple_project1
+  515  ls -ltr
+  516  cd ..
+  517  vim multiple_project2
+  518  vim multiple_project2/doc1 
+  519  vim multiple_project1/file1 
+  520  vim multiple_project2/doc1 
+  521  vim multiple_project1/file1 
+  522  git add -A
+  523  pwd
+  524  cd multiple
+  525  git add -A
+  526  git status
+  527  vim multiple_project1/file1 
+  528  vim multiple_project2/doc1 
+  529  cd ..
+  530  rm -rfv multiple_project*
+  531  cd multiple
+  532  ls -ltr
+  533  git status
+  534  git add -A
+  535  git status
+  536  grep recurs gitSubmod2
+  537  git add -A --recurse-submodules=on-demand
+  538  cd multiple_project1
+  539  git add -A
+  540  cd ../multiple_project2
+  541  git add -A
+  542  cd ..
+  543  pwd
+  544  git status
+  545  git add -A 
+  546  git status
+  547  git add multiple_project1
+  548  git add multiple_project2
+  549  git status
+  550  git submodule foreach add -A
+  551  git status
+  552  cd multiple_project1
+  553  git status
+  554  cd ..
+  555  git submodule --recursive
+  556  git submodule --summary
+  557  git submodule summary
+  558  git submodule summary --recursive
+  559  git submodule status --recursive
+  560  git submodule foreach --recursive add
+  561  git submodule foreach --recursive git add
+  562  git submodule foreach --recursive 'git add -A'
+  563  git status
+  564  git submodule summary
+  565  git submodule 
+  566  git push --recurse-submodules=on-demand
+  567  git status
+  568  git commit --recurse-submodules=on-demand
+  569  git commit -a -m "push together"
+  570  git status
+  571  cd multiple_project1
+  572  git commit -a -m "push together"
+  573  cd ..
+  574  git status
+  575  cd multiple_project2
+  576  git commit -a -m "push together"
+  577  cd ..
+  578  git status
+  579  git push --recurse-submodules=on-demand
+  580  git status
+  581  git add .
+  582  git status
+  583  git push --recurse-submodules=on-demand
+  584  git status
+  585  git submodule push --recurse-submodules=on-demand
+  586  git submodule summary
+  587  git submodule push --recurse-submodules=check
+  588  git commit -a -m "push together"
+  589  git submodule summary
+  590  git status
+  591  git push
+  592  git status
+  593  history | tee subMod
