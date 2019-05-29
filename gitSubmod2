@@ -1,0 +1,365 @@
+  411  cd /Users/user/Documents/DEVELOPMENT/GIT/algos 
+  417  cd ..
+  424  cd /usr/local/bin/vim
+  426  cd /usr/local/bin/vim/
+  428  cd /usr/local/bin/Cellar/vim
+  429  cd /usr/local/bin/
+  430  cd ..
+  431  cd Cellar/vim/
+  433  cd 8.1.0001
+  435  cd share/
+  437  cd vim/
+  439  cd vim81
+  441  cd plugin/
+  461  cd /Users/user/Desktop/GlOBA/LESSONS/Lectures/1-kurs 
+  501  cd/Users/user/Documents/DEVELOPMENT/GIT 
+  502  cd /Users/user/Documents/DEVELOPMENT/GIT 
+  506  cd multiple_project1
+  507  git init
+  509  git init
+  510  git add README.md
+  511  git commit -m "first commit"
+  512  git remote add origin https://github.com/OlgaAdam/multiple_project1.git
+  513  git push -u origin master
+  514  cd ..
+  516  cd multiple_project2
+  518  git init
+  519  git add README.md
+  520  git commit -m "first commit"
+  521  git remote add origin https://github.com/OlgaAdam/multiple_project2.git
+  522  git push -u origin master
+  523  cd ..
+  524  cd multiple
+  525  git submodule add https://github.com/OlgaAdam/multiple_project2
+  526  git status
+  527  cd ../..
+  529  cd GIT/
+  530  cd multiple_project1
+  533  git add file1 
+  534  git commit "project1 - update 1 2201"
+  535  git commit -m "project1 - update 1 2201"
+  536  git status
+  537  git push
+  538  git pull
+  539  cd ../..
+  540  cd multiple_project2
+  541  cd GIT/
+  542  cd multiple_project1
+  543  cd ../multiple_project2
+  545  git add doc1
+  546  git commit -m "project 2 - update 1 2204"
+  547  git pull
+  549  history | grep git
+  550  git commit -m "project 2 - update 2 2206"
+  551  git push
+  552  cd ..
+  553  cd multiple_project1
+  554  git push
+  555  cd ../multiple_project2
+  556  git push
+  557  git commit -m "project 2 - update 2 2206"
+  559  history | grep git
+  560  git pull
+  561  git status
+  562  git checkout doc1
+  563  git status
+  565  git statsu
+  566  git status
+  567  git add -A
+  568  git status
+  569  git commit -m "project 2 - update 2 2210"
+  570  git push
+  571  cd ../multiple_project1
+  572  git status
+  573  git checkout file1 
+  575  git add -A
+  576  git commit -m "project 1 - update 2 2213"
+  577  git status
+  578  git push
+  579  cd ..
+  584  cd multiple
+  586  git init
+  587  git add README.md
+  588  git commit -m "first commit"
+  589  git remote add origin https://github.com/OlgaAdam/multiple.git
+  590  git push -u origin master
+  591  git submodule add https://github.com/OlgaAdam/multiple_project2
+  592  git status
+  593  git diff --cached multiple_project2
+  594  git diff --cached --submodule
+  595  git commit -am "added multiple_project2"
+  596  git push origin master
+  598  git submodule add https://github.com/OlgaAdam/multiple_project1
+  599  git status
+  600  git diff --cached multiple_project1
+  601  git diff --cached --submodule
+  602  git commit -am "added multiple_project1"
+  603  git push origin master
+  605  git status
+  606  git diff --cached --submodule
+  607  git diff --cached multiple_project1
+  608  cd ..
+  610  cd multiple_project2
+  612  git pull
+  614  git checkout file1 
+  615  git checkout doc1 
+  617  git add -A
+  618  git commit -m "updated multiple_project2 after it was added as submodule to multiple."
+  619  git status
+  620  git push
+  621  cd ../..
+  622  cd GIT/
+  623  cd multiple
+  624  git pull
+  625  git status
+  627  cd multiple_project2
+  629  git checkout doc1 
+  631  git status
+  632  git add -A
+  633  git status
+  634  git commit -m "updated submodule multiple_project2 of multiple project after it was added as submodule to multiple."
+  635  git status
+  636  git push
+  637  git pull
+  640  git status
+  641  git add -A
+  642  git status
+  643  git status
+  644  git push
+  645  git pull
+  646  git commit -m "pulled submodule multiple_project2 of multiple project after it was added as submodule to multiple."
+  647  git push
+  649  git status
+  653  vim .git 
+  655  cd ..
+  658  vim .git
+  659  vim .gitmodules 
+  660  xs .git
+  661  cd .git
+  663  cd modules/
+  665  cd multiple_project
+  666  cd multiple_project2
+  668  cd config 
+  672  cd ../..
+  673  cd ..
+  674  cd multiple_project2
+  675  git pull
+  676  https://github.com/OlgaAdam/multiple_project2.git
+  677  cd ..
+  678  git pull
+  679  git pull --recursive
+  680  git sync
+  681  git 
+  682  git submodule sync
+  683  git submodule update
+  684  git submodule update rebase
+  685  git submodule update --force
+  686  git status
+  687  git pull
+  688  git submodule update --remote
+  689  git submodule foreach git reset --hard
+  690  git status
+  691  git add -A
+  692  git commit -m "from multiple after/git submodule foreach git reset --hard/"
+  693  git push
+  694  git status
+  695  cd multiple_project2
+  696  git pull
+  697  git checkout doc1 
+  699  git add -A
+  700  git commit -m "from multiple/multiple_project2 with instructions for reset and resync 2325"
+  701  git push
+  702  git status
+  703  git push --recurse-submodules=on-demand
+  704  cd ..
+  705  git push --recurse-submodules=on-demand
+  706  git status
+  707  git add -A
+  708  git status
+  709* git commit -m "git branch tmp  faa384; git merge tmp; to fix "
+  710  git status
+  711  git push --recurse-submodules=on-demand
+  712  git push --recurse-submodules=on-demand
+  713  git status
+  714  git push
+  715  git status
+  716  git submodule foreach git reset --hard
+  717  git status
+  718  git pull
+  719  git push
+  720  cd multiple_project
+  721  cd multiple_project2
+  722  git push
+  723  git rebase
+  724  git rebase master
+  725  git status
+  726  git push
+  727  cd ..
+  729  git rebase
+  730  git status
+  731  git revert
+  732  history | grep git | tee gitSubmod
+  733  history | grep -E "git\|cd" | tee gitSubmod2
+  734  history | grep -E "git|cd" | tee gitSubmod2
+  735  vimdiff gitSubmod2 gitSubmod
+  736  cd multiple_project2
+  737  git revert faa3847
+  738  git revert faa3847 -m 'fixing conflict from multiple '
+  739  git revert faa3847 -m "fixing conflict from multiple "
+  740  git revert -m "fixing conflict from multiple "
+  741  git push origin multiple_project2
+  742  git push 
+  743  cd ../..
+  744  cd multiple_project2
+  745  git pull
+  746  git status
+  747  cd ../multiple
+  748  git pull
+  749  cd multiple_project2
+  750  git pull
+  751  git pull multiple_project2
+  752  git pull master
+  753  git pull origin
+  754  git status
+  755  git branch -r
+  756  git checkout -b origin/HEAD
+  757  git status
+  758  git checkout -b origin/master
+  759* git statusç
+  761  cd ../multiple_project1
+  762  git branch -r
+  763  git status
+  764  cd ../..
+  765  git status
+  766  cd multiple
+  767  cd multiple_project2
+  768  git status
+  769  git checkout doc1 
+  770  git status
+  771  git log -1
+  772  git checkout master
+  773  git branch tmp <commit-hash>
+  774  git branch tmp <commit-hash> faa384
+  775  git branch tmp  faa384
+  776  git merge tmp
+  777  git commit "HEAD detached ; git branch tmp  faa384; git merge tmp"
+  778  git commit -m "HEAD detached ; git branch tmp  faa384; git merge tmp"
+  779  git push
+  780  git reste --hard
+  781  git reset --hard
+  782  git pull
+  783  cd ..
+  784  git reset --hard --recursive
+  785  git reset --hard
+  786  cd multiple_project2
+  787  git reset --hard
+  788  git reset multiple/multiple_project2--hard
+  789  git reset multiple/multiple_project2 --hard
+  790  cd ..
+  791  git clean -xfd
+  792  git submodule foreach --recursive git clean -xfd
+  793  git reset --hard
+  794  git submodule foreach --recursive git reset --hard
+  795  git submodule update --init --recursive
+  796  git submodule foreach --recursive git reset --hard
+  797  git submodule update --init --recursive
+  798  git clean -d -f -f -x
+  799  git submodule foreach --recursive git clean -d -f -f -x
+  800  git status
+  801  cd multiple_project2
+  802  git status
+  803  git submodule update --recursive .
+  804  git status
+  805  cd ../multiple_project2
+  806  cd ../../multiple_project2
+  807  git reset --hard
+  808  git status
+  809  git pull
+  810  cd ../..
+  811  cd GIT/multiple
+  812  cd multiple_project2
+  813  git reset --hard HEAD~1  
+  814  git status
+  815  git reset --hard HEAD~1  
+  816  cd ..
+  817  git reset --hard HEAD~1  
+  818  git reset --hard HEAD
+  819  git submodule update --init
+  820  git status
+  821  git pull
+  822  cd multiple_project
+  823  cd multiple_project2
+  824  git pull
+  826  git status
+  827  git commit -m "git submodule update --init"
+  828  git push
+  829  git status
+  830  git push git push origin HEAD:faa3847
+  831  git push origin HEAD:faa3847
+  832  git push origin HEAD:https://github.com/OlgaAdam/multiple_project2.git
+  833  git push origin HEAD:https://github.com/OlgaAdam/multiple_project2
+  834  git push origin HEAD:multiple_project2
+  835  git submodule update --recursive .
+  836  git submodule foreach --recursive git reset --hard
+  837  git submodule foreach git reset --hard
+  838  git submodule foreach git reset --hard
+  839  git push
+  840  cd ..
+  841  git push
+  842  git submodule foreach git reset --hard
+  843  git sync
+  844  git checkout doc1 
+  845  cd multiple_project2
+  846  git checkout doc1 
+  848  git push
+  849  git commit -m "trying to fix"
+  850  git add -A
+  851  git commit -m "trying to fix"
+  852  git push
+  853  git push origin master
+  854  git status
+  855  git push origin master
+  856  git status
+  857  cd ..
+  858  git submodule foreach git reset --hard
+  859  git status
+  860  git checkout -- multiple_project2
+  861  git status
+  862  git add -A
+  863  git status
+  864  git push
+  866  git status
+  867  git commit -m "trying to push from multiple"
+  868  git status
+  869  git push
+  870  git submodule foreach --recursive git reset --hard
+  871  git submodule foreach --recursive git reset --hard
+  872  cd ../
+  873  cd multiple_project2
+  874  git reset --hard
+  875  git pull
+  876  git reset --hard
+  877  cd ../multiple
+  878  git push --recurse-submodules
+  879  git push --recurse-submodules=on-demand
+  880  git fetch
+  881  git status
+  882  cd multiple_project2
+  883  git fetch
+  884  git status
+  885  git submodule foreach git push origin master
+  886  git status
+  887  git diff
+  888  history | grep -E "git|cd" | tee gitSubmod2
+  890  https://github.com/OlgaAdam/multiple_project2.git
+  891  cd ..
+  892  git submodule deinit multiple_project2
+  893  git submodule deinit -f multiple_project2
+  895  git rm multiple_project2
+  897  git commit-m "Removed submodule multiple_project2"
+  898  git commit -m "Removed submodule multiple_project2"
+  899  rm -rf .git/modules/multiple_project2
+  901  git status
+  902  git push -A
+  903  git push
+  904  history | grep -E "git|cd" | tee gitSubmod2
